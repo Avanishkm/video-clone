@@ -50,19 +50,27 @@ const VideoCard = () => {
               <div key={post.postId} className='card-container'>
                 <h3>{post.submission.title}</h3>
                 <p>{post.submission.description}</p>
+                
+                <a href="#" >
                 <img className='thumbnail'
                   src={post.submission.thumbnail} 
                   alt="Thumbnail" 
                   onClick={() => handleThumbnailClick(post.submission.mediaUrl)}
                   style={{ cursor: 'pointer' }}
                 />
+                </a>
+                
               </div>
             ))}
           </div>
+          
           <div className='btn'>
+            
           <button onClick={handlePrevPage} disabled={currentPage === 0}>Previous Page</button>
           <button onClick={handleNextPage}>Next Page</button>
+          
           </div>
+         
         </div>
       )}
     </div>

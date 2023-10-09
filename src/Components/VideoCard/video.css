@@ -3,6 +3,7 @@
     justify-content: center;
     flex-wrap: wrap;
     
+    
 }
 
 .card-container{
@@ -25,11 +26,7 @@
       border-radius: 1px solid lightgray;
       text-align: center;
       box-shadow: 5px 10px rgba(0, 0, 0, 0.4);
-      border-radius: 10px;
-      
-      
-      
-     
+      border-radius: 10px; 
 
   }
 
@@ -43,9 +40,9 @@
   }
 
   p{
-    margin-top: 10px;
-    text-overflow: ellipsis;
-    /* display: none; */
+    margin-bottom: 2px;
+    
+    
     
   }
 
@@ -55,10 +52,10 @@
   }
 
   .thumbnail{
-    width: 80%;
-    height: 40%;
+    width: 200px;
+    height: 65%;
     margin-bottom: 20px;
-    
+    border-radius: 8px;
   }
 
  .video{
@@ -68,8 +65,8 @@
     width: 400px;
     float: left;
     z-index: 999;
-
     border-radius: 10px;
+    background-color: black;
     
   }
 
@@ -79,6 +76,4 @@
     margin-bottom: 20px;
     height: 30px;
     gap: 10px;
-    
-
   }
